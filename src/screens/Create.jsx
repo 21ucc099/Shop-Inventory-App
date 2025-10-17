@@ -94,7 +94,7 @@ const Create = ({ data, setData }) => {
             <View style={{ flexDirection: 'row' }}>
                 <TextInput
                     style={styles.input_quantity_container}
-                    placeholder="Enter amount"
+                    placeholder="Enter quantity"
                     placeholderTextColor='#000000ff'
                     fontSize={18}
                     value={itemQuantity}
