@@ -1,14 +1,41 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🏪 Shop Inventory App
 
-# Getting Started
+A complete **React Native Inventory Management App** for shopkeepers and small businesses.  
+It helps users **add, edit, and delete stock items** with details like quantity, price, and unit (kg, litre, piece, etc.).  
+The app visually highlights **low-stock items** and ensures **data persistence** using AsyncStorage, so your inventory remains saved even after closing the app.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 🚀 Features
+
+- 📦 Add, edit, and delete inventory items  
+- ⚖️ Support for multiple units — kg, litre, piece, etc.  
+- 🔔 Auto-highlight low-stock items  
+- 💾 Local data persistence using AsyncStorage  
+- 📱 Clean and responsive UI for Android  
+- ⚡ Instant updates without app reload (Fast Refresh)  
+
+---
+
+## 🖼️ Screenshots
+
+| Home Screen | Add Item | Edit Item | Low Stock Alert |
+|--------------|-----------|-----------|----------------|
+| ![Home](./assets/screenshots/home.jpg) | ![Add Item](./assets/screenshots/add.jpg) | ![Edit Item](./assets/screenshots/edit.jpg) | ![Low Stock](./assets/screenshots/low.jpg) |
+
+
+
+---
+
+## ⚙️ Getting Started
+
+> **Note:** Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+
+### Step 1: Start Metro
 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+To start the Metro dev server, run:
 
 ```sh
 # Using npm
@@ -16,7 +43,7 @@ npm start
 
 # OR using Yarn
 yarn start
-```
+
 
 ## Step 2: Build and run your app
 
